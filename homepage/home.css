@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.up-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.up-header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8D8C8B;
+}
+.down-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid rgb(87, 86, 86);
+}
+.down-header a{
+    color: white;
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu nav ul{
+    display: flex;
+    gap: 30px;
+}
+.menu nav ul li a{
+    font-size: 17px;
+}
+.menu nav ul li a:hover{
+    color: #C8A97E;
+    transition: all .6s;
+}
+.menu button{
+    padding: 15px;
+    border-radius: 10px;
+}
+.home_Page{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://preview.colorlib.com/theme/feliciano/images/bg_1.jpg.webp);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.up-home{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 400px;
+}
+.arrow-bttn{
+    color: white;
+    font-size: 18px;
+}
+.text-home{
+    text-align: center;
+}
+.text-home span{
+    color: #C8A97E;
+    font-family: "Great Vibes";
+    font-size: 70px;
+}
+.text-home h4{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+.down-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.down-home div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+}
+.img-home{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.restaurant{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.img-restaurant img{
+    height: 426px;
+    width: 350px;
+    border-radius: 5px;
+}
+.txt-restaurant{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.head-part{
+    line-height: .4;
+}
+.head-part span{
+    font-size: 100px;
+    font-family: "Great Vibes" , cursive;
+    color: #c8a97e;
+}
+.head-part h3{
+    font-size: 50px;
+}
+#restoran{
+    font-size: 50px;
+}
+#number{
+    font-size: 40px;
+    font-weight: 700;
+    color: #c8a97e;
+}
+.head-servise{
+    text-align: center;
+}
+.img-servise{
+    font-size: 50px;
+    color: #c8a97e;
+}
+#down-servise{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
